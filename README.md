@@ -24,7 +24,7 @@ To clone this calculator repository to your local machine:
 3. Run the following command:
 
 ```bash
-git clone 
+git clone https://github.com/ashikibrahim07/calculator
 ```
 
 ## Future Updates
