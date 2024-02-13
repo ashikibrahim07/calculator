@@ -1,6 +1,6 @@
 # Calculator
 
-This calculator allows you to perform basic arithmetic operations using mouse clicks.
+This calculator allows you to perform basic arithmetic operations using mouse clicks on laptops and PCs, and for mobile devices, you can use touch input on the buttons.
 
 ## Usage
 
