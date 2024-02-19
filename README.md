@@ -38,5 +38,9 @@ I have plan to add keyboard functionality to the calculator for easier input. St
 5. Push your changes to your fork: `git push origin feature/keyboard-functionality`.
 6. Create a pull request on the original repository.
 
+## Author
+
+Ashik Ibrahim S
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
