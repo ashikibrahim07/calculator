@@ -26,6 +26,9 @@ To clone this calculator repository to your local machine:
 ```bash
 git clone https://github.com/ashikibrahim07/calculator
 ```
+# Live Demo
+
+You can view the live demo of the project [here](https://ashikibrahim07.github.io/calculator/).
 
 ## Future Updates
 I have plan to add keyboard functionality to the calculator for easier input. Stay tuned for updates!
