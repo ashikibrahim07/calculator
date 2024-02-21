@@ -29,14 +29,20 @@ body {
 
 input[type="text"] {
   width: 195px;
+  height: 48px;
+  font-size: 1.5rem;
+  font-weight: bolder;
   padding: 15px;
   margin-top: 5px;
   margin-left: 5px;
   border-radius: 5px;
   margin-bottom: 10px;
   border: 1px solid #000000;
+  text-align: right;
 }
-
+#clear {
+  font-weight: bolder;
+}
 button {
   width: 48px;
   height: 48px;
@@ -48,7 +54,17 @@ button {
   background-color: #ff9933;
   font-size: 18px;
 }
-
+button:active {
+  transform: scale(0.9);
+}
+.dot {
+  font-size: 1.9rem;
+  justify-self: center;
+}
+.multiply {
+  font-size: 1.5rem;
+  justify-self: center;
+}
 .equal {
   width: 190px;
   height: 48px;
