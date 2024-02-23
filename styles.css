@@ -1,21 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
+::selection {
+  background-color: #ff9933;
+  color: #000000;
+}
 h1 {
   margin: 25px;
+  color: #003049;
 }
 
 body {
+  background-color: #eae2b7;
   display: flex;
   flex-direction: column;
+  font-family: "Mulish", sans-serif;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   margin: 0%;
 }
 
@@ -24,9 +29,11 @@ body {
   border: 1px solid #000000;
   padding: 10px 10px 10px 17px;
   border-radius: 10px;
-  background-color: #000000;
+  background-color: #003049;
 }
-
+.calculator:hover {
+  box-shadow: 0px 0px 10px #ff9933;
+}
 input[type="text"] {
   width: 195px;
   height: 48px;
@@ -38,8 +45,10 @@ input[type="text"] {
   border-radius: 5px;
   margin-bottom: 10px;
   border: 1px solid #000000;
+  cursor: text;
   text-align: right;
 }
+
 button {
   width: 48px;
   height: 48px;
@@ -53,7 +62,10 @@ button {
 }
 button:active {
   transform: scale(0.9);
+  box-shadow: 0px 0px 10px #878d87;
+  z-index: 1000;
 }
+
 .dot {
   font-size: 1.9rem;
   justify-self: center;
