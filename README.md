@@ -2,6 +2,17 @@
 
 This calculator allows you to perform basic arithmetic operations using mouse clicks on laptops and PCs, and for mobile devices, you can use touch input on the buttons.
 
+## Table of Contents
+
+- [Usage](#usage)
+- [Example](#example)
+- [Cloning the Calculator Repository](#cloning-the-calculator-repository)
+- [Live Demo](#live-demo)
+- [Future Updates](#future-updates)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
+  
 ## Usage
 
 1. Click on the buttons corresponding to the numbers and operations you want to input.
